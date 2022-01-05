@@ -13,7 +13,7 @@ import random
 from itertools import chain
 
 N_CHANNELS = 3
-datapath = '../FireDataset/Classify/fire_daraset_classification'
+datapath = 'D:/Deep Learning Practice/FireDataset/Classify/fire_daraset_classification_compression'
 
 def read_split_data(root: str, val_rate: float = 0.2, plot_image: bool = False):
     

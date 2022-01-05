@@ -136,7 +136,7 @@ if args.model == "s":
     if args.weight:
         w_path = args.weight
     else:
-        w_path = "./weights/model-loss0.073.pth"
+        w_path = "./weights/model_loss0.039.pth"
     model.load_state_dict(torch.load(w_path, map_location=device))
     
 elif args.model == "m":
@@ -144,7 +144,7 @@ elif args.model == "m":
     if args.weight:
         w_path = args.weight
     else:
-        w_path = "./weights/model-loss0.073.pth"
+        w_path = "./weights/model_loss0.039.pth"
     model.load_state_dict(torch.load(w_path, map_location=device))
     
 elif args.model == "l":
@@ -152,7 +152,7 @@ elif args.model == "l":
     if args.weight:
         w_path = args.weight
     else:
-        w_path = "./weights/model-loss0.073.pth"
+        w_path = "./weights/model_loss0.039.pth"
     model.load_state_dict(torch.load(w_path, map_location=device))
     
 else:
